@@ -6,25 +6,25 @@ public class main {
         System.out.println("Hello, I am Carlsen");
 
         // Question 2b
-        String currency = "CSC1009";
-        switch (currency){
-            case "AUD":
-                System.out.println("Australian Dollar");
+        String modCode = "CSC1009";
+        switch (modCode){
+            case "CSC1006":
+                System.out.println("Mathematics 2");
                 break;
-            case "MYR":
-                System.out.println("Malaysian Ringgit");
+            case "CSC1007":
+                System.out.println("Operating Systems");
                 break;
-            case "IDR":
-                System.out.println("Indonesian Rupiah");
-                break;
-            case "SGD":
-                System.out.println("Singapore Dollar");
+            case "CSC1008":
+                System.out.println("Data Structure and Algorithm");
                 break;
             case "CSC1009":
                 System.out.println("Object-Oriented Programming");
                 break;
+            case "CSC1010":
+                System.out.println("Computer Networks");
+                break;
             default:
-                System.out.println("Unknown Currency");
+                System.out.println("Unknown Module Code");
                 break;
         }
         System.out.println("After Switch");
