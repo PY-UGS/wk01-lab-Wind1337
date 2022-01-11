@@ -30,8 +30,8 @@ public class main {
         System.out.println("After Switch");
 
         // Question 2c
-        for (int x = 102; x >= 66; x--){
-            System.out.println("Value of x: " + x);
+        for (int x = 102; x >= 66; x = x - 2){
+            System.out.println("Value of x: " + (x - 1));
         }
     }
 }
